@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Bobbiehex",
-    "slug": "Bobbiehex",
+    "slug": "bobbiehex",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bfae1486-5e16-426d-83b7-3fffc70f0599"
+      }
+    },
+    "owner": "bobbiehex"
   }
 }
