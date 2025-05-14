@@ -1,10 +1,10 @@
 import { Link } from 'expo-router';
 import { Text, View, StyleSheet } from 'react-native';
 
-export default function AboutScreen() {
+export default function Contact() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>About Page</Text>
+      <Text style={styles.text}>Contact Page</Text>
       <Link href="/" style={styles.link}>Back Home</Link>
     </View>
   );
